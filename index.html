@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerrymie | Portfolio</title>
+    <!--FONT: using two google fonts-->
+<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NAVBAR -->
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__inner">
+            <a href="#hero" class="nav__logo">Hey <span>Jerrymie</span></a>
+
+            <ul class="nav__links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interest">Interests</a></li>
+                <li><a href="#learned">Learned</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="class__right">
+                <button class="theme-btn" id="themeToggle">Dark Mode</button>
+
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="nav__mobile" id="mobileMenu">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#interest">Interests</a>
+            <a href="#learned">Learned</a>
+            <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!--HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero__inner">
+
+                <p class="hero__greeting">Hello, I'm</p>
+                <h1 class="hero__name"><span>Jerrymie</span> <br> Here.</h1>
+                <p class="hero__tagline">
+                    A Front-End developer on a mission to build clean, responsive, and user-friendly web experiences -- learning and practicing 
+                    new technologies along the way.
+                </p>
+                <div class="hero__ctas">
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">5+</span>
+                        <span class="stat__label">Projects Built</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">3</span>
+                        <span class="stat__label">Technologies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">11+</span>
+                        <span class="stat__label">Months Learning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+     <section class="section section--alt" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">The Person Behind the Code</h2>
+            </div>
+
+            <div class="about__grid">
+                <div class="about__photo-wrap">
+                    <div class="about__photo">
+                        <img src="me.jpg" alt="A photo of Jerrymie" />
+                    </div>
+                    <div class="about__text">
+                        <p>
+                            I'm a passionate front-end developer with a love for crafting clean, responsive, and user-friendly web experiences. 
+                            With over 11 months of dedicated learning and hands-on practice, I've built 5+ projects using HTML, CSS, and JavaScript. 
+                            I'm always eager to explore new technologies and expand my skill set to create even better digital experiences.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me exploring the latest tech trends, experimenting with new design ideas, 
+                            or simply enjoying a good cup of coffee, watching football highlights and connecting with fellow developers in the community.
+                             I'm excited to continue growing as a developer and contribute to impactful projects that make a difference.
+                        </p>
+                        <p>
+                            Feel free to reach out if you'd like to collaborate on a project, share ideas, or just chat about all things tech. 
+                            I'm always open to new opportunities and connections in the world of web development!
+                        </p>
+                        <div class="about__traits">
+                            <span class="traits">Self-Taught</span>
+                            <span class="traits">Detail-Oriented</span>
+                            <span class="traits">Design Minded</span>
+                            <span class="traits">Always Learning</span>
+                            <span class="traits">Open Source Fan</span>
+                            <span class="traits">Football Lover</span>
+                            <span class="traits">Video Games</span>
+                            <span class="traits">Tech Trends</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Skills</span>
+                <h2 class="section-title">What I work with.</h2>
+                <p class="section-desc">
+                    The technologies and tools I reach for when building projects.
+                    Growing this list every now and then!
+                </p>
+            </div>
+            <div class="skills__grid">
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Foundation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Flex-Box</span>
+                        <span class="skill-tag">CSS Grid</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Design & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Claude</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS CODE</span>
+                        <span class="skill-tag">BootStraps</span>
+                        <span class="skill-tag">Antigravity</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3 class="skill-group__title">JavaScript</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DOM</span>
+                        <span class="skill-tag">API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
