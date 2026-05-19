@@ -230,23 +230,22 @@ img {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  height: 32px;
-  width: 32px;
+  height: 36px;
+  width: 36px;
   background: none;
   justify-content: center;
   border: none;
   cursor: pointer;
   padding: 4px;
 }
-.hamburger__line {
+.hamburger span {
   display: block;
   width: 100%;
   height: 2px;
   background-color: var(--color-text);
   border-radius: 2px;
-  transition:
-    transform var(--transition),
-    opacity var(--transition);
+  transform-origin: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .hamburger.is-open .hamburger__line:nth-child(1) {
   transform: rotate(45deg) translate(7px);
@@ -333,7 +332,7 @@ img {
   gap: 1rem;
   margin-bottom: 3.5rem;
 }
-.heo__stats {
+.hero__stats {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
@@ -342,7 +341,7 @@ img {
 }
 .stat__number {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: var(--color-accent);
   display: block;
@@ -362,7 +361,7 @@ img {
 
 .about__grid {
     display: grid;
-    grid-template-columns: auto 1.6fr;
+    grid-template-columns: 1fr 1.6fr;
     gap: 5rem;
     align-items: center;
 }
@@ -436,7 +435,7 @@ img {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: var(--color-border);
-    padding: 1.75rem;
+    padding: 1.80rem;
     transition: box-shadow var(--transition), transform var(--transition);
 }
 .skill-group:hover {
@@ -509,7 +508,7 @@ img {
     padding: 4rem 0;
   }
   .nav__logo {
-    margin-right: 200px;
+    margin-right: 100px;
   }
   .skills__grid {
     grid-template-columns: 1fr;
