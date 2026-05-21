@@ -1,0 +1,32 @@
+<div class="interests__grid">
+                
+                <div class="interests__card">
+                    <h3 class="interest-card__title">UI / UX Design</h3>
+                    <p class="interest-card__desc">User-friendly web-apps and websites...</p>
+                </div>
+            </div>
+
+            <div class="interests__grid">
+                <div class="interests__card">
+                    <h3 class="interest-card__title">Web Animations</h3>
+                    <p class="interest-card__desc">Transformation, Transitions, and smooth effects make interfaces more engaging...</p>
+                </div>
+            </div>
+
+            <div class="interests__grid">
+                <div class="interests__card">
+                    
+                </div>
+            </div>
+
+            <div class="interests__grid">
+                <div class="interests__card">
+                    
+                </div>
+            </div>
+
+            <div class="interests__grid">
+                <div class="interests__card">
+                    
+                </div>
+            </div>
